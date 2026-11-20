@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile | RPMS</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="navbar">
+    <div class="logo">RPMS<span>.</span></div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="student.html">Dashboard</a>
+        <a href="jobs.html">Find Jobs</a>
+        <a href="profile.html" class="active">Profile</a>
+    </nav>
+    <div class="nav-buttons">
+        <a href="login.html" class="login-btn">Logout</a>
+    </div>
+</header>
+
+<section class="page-banner">
+    <h1>My Professional Profile</h1>
+    <p>Build your profile and showcase your skills to recruiters.</p>
+</section>
+
+<main class="profile-container">
+
+    <div class="profile-card">
+        <div class="profile-avatar">S</div>
+        <h2>Student Name</h2>
+        <p>BSc Computer Science</p>
+        <span class="profile-badge">Student Account</span>
+    </div>
+
+    <div class="profile-form-card">
+        <h2>Personal Information</h2>
+        <p class="form-subtitle">Update your personal and academic details.</p>
+
+        <form action="#" method="post" enctype="multipart/form-data">
+
+            <div class="profile-form-grid">
+
+                <div>
+                    <label>Full Name</label>
+                    <input type="text" placeholder="Enter full name">
+                </div>
+
+                <div>
+                    <label>Email Address</label>
+                    <input type="email" placeholder="Enter email address">
+                </div>
+
+                <div>
+                    <label>Phone Number</label>
+                    <input type="tel" placeholder="Enter phone number">
+                </div>
+
+                <div>
+                    <label>Course</label>
+                    <select>
+                        <option>Select Course</option>
+                        <option>BSc Computer Science</option>
+                        <option>MSc Computer Science</option>
+                        <option>BCA</option>
+                        <option>MCA</option>
+                        <option>BTech</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label>College Name</label>
+                    <input type="text" placeholder="Enter college name">
+                </div>
+
+                <div>
+                    <label>Graduation Year</label>
+                    <input type="number" placeholder="e.g. 2026">
+                </div>
+
+                <div class="full-width">
+                    <label>Technical Skills</label>
+                    <textarea rows="4" placeholder="Example: Python, HTML, CSS, SQL, Power BI"></textarea>
+                </div>
+
+                <div class="full-width">
+                    <label>Upload Resume (PDF)</label>
+                    <input type="file" accept=".pdf">
+                    <small class="file-help">Upload your latest resume in PDF format.</small>
+                </div>
+
+            </div>
+
+            <button type="submit" class="auth-submit">Save Profile Changes</button>
+
+        </form>
+    </div>
+
+</main>
+
+<footer>
+    <div class="logo">RPMS<span>.</span></div>
+    <p>Recruitment & Placement Management System</p>
+    <p>© 2026 RPMS. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
