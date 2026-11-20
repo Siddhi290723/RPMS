@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard | RPMS</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="dashboard-header">
+    <div class="logo">RPMS<span>.</span></div>
+    <div class="dashboard-user">
+        <span>Administrator</span>
+        <div class="user-avatar">A</div>
+        <a href="index.html" class="logout-btn">Logout</a>
+    </div>
+</header>
+
+<div class="dashboard-layout">
+
+    <aside class="sidebar">
+        <h3>ADMIN MENU</h3>
+        <a href="admin.html" class="selected">▦ Dashboard</a>
+        <a href="student.html">♙ Students</a>
+        <a href="company.html">🏢 Companies</a>
+        <a href="jobs.html">💼 Job Listings</a>
+        <a href="applications.html">▤ Applications</a>
+        <a href="index.html">⌂ Home</a>
+    </aside>
+
+    <main class="dashboard-main">
+
+        <div class="dashboard-title">
+            <div>
+                <h1>Admin Dashboard</h1>
+                <p>Monitor and manage the entire placement system.</p>
+            </div>
+            <span class="admin-label">SYSTEM ADMINISTRATOR</span>
+        </div>
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <span>🎓</span>
+                <p>Registered Students</p>
+                <h2>850</h2>
+                <small>Student accounts</small>
+            </div>
+
+            <div class="stat-card">
+                <span>🏢</span>
+                <p>Registered Companies</p>
+                <h2>65</h2>
+                <small>Company accounts</small>
+            </div>
+
+            <div class="stat-card">
+                <span>💼</span>
+                <p>Available Jobs</p>
+                <h2>120</h2>
+                <small>Published opportunities</small>
+            </div>
+
+            <div class="stat-card">
+                <span>📊</span>
+                <p>Total Applications</p>
+                <h2>1,250</h2>
+                <small>Applications submitted</small>
+            </div>
+        </div>
+
+        <section class="dashboard-panel">
+            <div class="panel-heading">
+                <h2>Recent Student Registrations</h2>
+                <a href="student.html">View All →</a>
+            </div>
+
+            <div class="table-wrapper">
+                <table>
+                    <tr>
+                        <th>Student Name</th>
+                        <th>Email</th>
+                        <th>Course</th>
+                        <th>Status</th>
+                    </tr>
+                    <tr>
+                        <td>Rahul Sharma</td>
+                        <td>rahul@example.com</td>
+                        <td>BSc Computer Science</td>
+                        <td><span class="status selected">Active</span></td>
+                    </tr>
+                    <tr>
+                        <td>Priya Patil</td>
+                        <td>priya@example.com</td>
+                        <td>BCA</td>
+                        <td><span class="status selected">Active</span></td>
+                    </tr>
+                    <tr>
+                        <td>Amit Verma</td>
+                        <td>amit@example.com</td>
+                        <td>MSc Computer Science</td>
+                        <td><span class="status pending">Pending</span></td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+
+        <section class="dashboard-panel">
+            <div class="panel-heading">
+                <h2>Placement Statistics</h2>
+            </div>
+
+            <div class="recruitment-info">
+                <div>
+                    <h3>320</h3>
+                    <p>Students placed</p>
+                </div>
+                <div>
+                    <h3>85%</h3>
+                    <p>Placement progress</p>
+                </div>
+                <div>
+                    <h3>65</h3>
+                    <p>Recruiting companies</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</div>
+
+</body>
+</html>
