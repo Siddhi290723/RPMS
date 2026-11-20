@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Dashboard | RPMS</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="dashboard-header">
+    <div class="logo">RPMS<span>.</span></div>
+    <div class="dashboard-user">
+        <span>Welcome, Company</span>
+        <div class="user-avatar">C</div>
+        <a href="index.html" class="logout-btn">Logout</a>
+    </div>
+</header>
+
+<div class="dashboard-layout">
+
+    <aside class="sidebar">
+        <h3>COMPANY MENU</h3>
+        <a href="company.html" class="selected">▦ Dashboard</a>
+        <a href="jobs.html">▤ Manage Jobs</a>
+        <a href="applications.html">♙ Applicants</a>
+        <a href="profile.html">⚙ Company Profile</a>
+        <a href="index.html">⌂ Home</a>
+    </aside>
+
+    <main class="dashboard-main">
+
+        <div class="dashboard-title">
+            <div>
+                <h1>Company Dashboard</h1>
+                <p>Manage your recruitment and placement activities.</p>
+            </div>
+            <a href="jobs.html" class="primary-btn">+ Post New Job</a>
+        </div>
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <span>💼</span>
+                <p>Active Jobs</p>
+                <h2>08</h2>
+                <small>Currently published</small>
+            </div>
+
+            <div class="stat-card">
+                <span>👥</span>
+                <p>Total Applicants</p>
+                <h2>145</h2>
+                <small>Applications received</small>
+            </div>
+
+            <div class="stat-card">
+                <span>⭐</span>
+                <p>Shortlisted</p>
+                <h2>32</h2>
+                <small>Potential candidates</small>
+            </div>
+
+            <div class="stat-card">
+                <span>✓</span>
+                <p>Selected</p>
+                <h2>12</h2>
+                <small>Successful placements</small>
+            </div>
+        </div>
+
+        <section class="dashboard-panel">
+            <div class="panel-heading">
+                <h2>Recent Job Postings</h2>
+                <a href="jobs.html">Manage Jobs →</a>
+            </div>
+
+            <div class="table-wrapper">
+                <table>
+                    <tr>
+                        <th>Job Title</th>
+                        <th>Location</th>
+                        <th>Applicants</th>
+                        <th>Status</th>
+                    </tr>
+                    <tr>
+                        <td>Python Developer</td>
+                        <td>Pune</td>
+                        <td>45</td>
+                        <td><span class="status selected">Active</span></td>
+                    </tr>
+                    <tr>
+                        <td>Data Analyst</td>
+                        <td>Mumbai</td>
+                        <td>60</td>
+                        <td><span class="status selected">Active</span></td>
+                    </tr>
+                    <tr>
+                        <td>Web Developer</td>
+                        <td>Nashik</td>
+                        <td>40</td>
+                        <td><span class="status pending">Closing Soon</span></td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+
+        <section class="dashboard-panel">
+            <div class="panel-heading">
+                <h2>Recruitment Overview</h2>
+            </div>
+
+            <div class="recruitment-info">
+                <div>
+                    <h3>145</h3>
+                    <p>Total candidates applied</p>
+                </div>
+                <div>
+                    <h3>32</h3>
+                    <p>Candidates shortlisted</p>
+                </div>
+                <div>
+                    <h3>12</h3>
+                    <p>Candidates selected</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</div>
+
+</body>
+</html>
