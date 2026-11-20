@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account | RPMS</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="navbar">
+    <div class="logo">RPMS<span>.</span></div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="jobs.html">Find Jobs</a>
+    </nav>
+    <div class="nav-buttons">
+        <a href="login.html" class="login-btn">Login</a>
+    </div>
+</header>
+
+<section class="auth-section register-section">
+
+    <div class="auth-info">
+        <span class="tagline">JOIN OUR COMMUNITY</span>
+        <h1>Start Building Your Professional Future.</h1>
+        <p>Create your account and become part of a platform that connects talent with opportunities.</p>
+
+        <div class="auth-benefit">
+            <span>✓</span> Create your professional profile
+        </div>
+        <div class="auth-benefit">
+            <span>✓</span> Explore career opportunities
+        </div>
+        <div class="auth-benefit">
+            <span>✓</span> Connect with recruiters
+        </div>
+    </div>
+
+    <div class="auth-card">
+        <h2>Create Account</h2>
+        <p class="form-subtitle">Fill in your details to get started.</p>
+
+        <form action="#" method="post">
+
+            <label for="role">Register As</label>
+            <select id="role" name="role" required>
+                <option value="">Select account type</option>
+                <option value="student">Student</option>
+                <option value="company">Company</option>
+            </select>
+
+            <label for="name">Full Name / Company Name</label>
+            <input type="text" id="name" name="name"
+                   placeholder="Enter your name" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email"
+                   placeholder="Enter your email" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone"
+                   placeholder="Enter your phone number"
+                   pattern="[0-9]{10}" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password"
+                   placeholder="Create a password"
+                   minlength="8" required>
+
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" id="confirm-password"
+                   name="confirm_password"
+                   placeholder="Confirm your password"
+                   minlength="8" required>
+
+            <label class="terms">
+                <input type="checkbox" required>
+                I agree to the Terms & Conditions.
+            </label>
+
+            <button type="submit" class="auth-submit">
+                Create My Account
+            </button>
+
+        </form>
+
+        <p class="auth-switch">
+            Already have an account?
+            <a href="login.html">Login Here</a>
+        </p>
+    </div>
+
+</section>
+
+<footer>
+    <div class="logo">RPMS<span>.</span></div>
+    <p>Recruitment & Placement Management System</p>
+    <p>© 2026 RPMS. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
